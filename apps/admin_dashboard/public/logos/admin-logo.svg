@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" role="img" aria-label="Toko-Fast Admin">
+  <circle cx="24" cy="24" r="16" fill="#0f766e"/>
+  <path d="M17 24h14M24 17v14" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <text x="52" y="31" font-family="sans-serif" font-size="20" font-weight="700" fill="#0f172a">Toko-Fast Admin</text>
+</svg>
