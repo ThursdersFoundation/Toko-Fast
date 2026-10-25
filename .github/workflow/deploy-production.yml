@@ -1,0 +1,31 @@
+name: Deploy Production
+
+on:
+  workflow_dispatch:
+    inputs:
+      app:
+        description: App to deploy
+        type: choice
+        required: true
+        default: seller-dashboard
+        options:
+          - seller-dashboard
+          - admin-dashboard
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build --workspace apps/${{ inputs.app }}
+      - name: Deploy
+        run: |
+          echo "TODO: wire up the deployment target (Vercel, VM, k8s) for apps/${{ inputs.app }}"
