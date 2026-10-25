@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability (private disclosure)
+    url: mailto:security@toko-fast.example.com
+    about: Report security issues privately — do not open a public issue.
+  - name: Community discussion
+    url: https://github.com/toko-fast/toko-fast/discussions
+    about: Ask questions and discuss ideas with the team.

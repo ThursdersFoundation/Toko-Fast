@@ -1,0 +1,39 @@
+name: Security report
+description: Report a vulnerability (responsible disclosure only).
+labels: ['security']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Do not disclose exploitable details publicly.**
+        Prefer reporting privately to **security@toko-fast.example.com**.
+        Use this form only for non-sensitive context or after coordinating.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: High-level description of the issue without exploit details.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Authentication / session
+        - Authorization / access control
+        - Injection (XSS, SQLi, ...)
+        - Data exposure
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact email for follow-up
