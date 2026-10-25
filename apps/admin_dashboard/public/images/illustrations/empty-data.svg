@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240" role="img" aria-label="Empty Data">
+  <rect width="320" height="240" fill="#f9fafb"/>
+  <circle cx="160" cy="96" r="48" fill="#e5e7eb"/>
+  <path d="M136 96h48M136 114h32" stroke="#9ca3af" stroke-width="6" stroke-linecap="round"/>
+  <text x="160" y="186" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#6b7280">Empty Data</text>
+</svg>
