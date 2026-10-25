@@ -1,0 +1,10 @@
+{
+  "name": "Toko-Fast Admin Console",
+  "short_name": "Toko-Fast Admin",
+  "description": "Internal admin console for the Toko-Fast marketplace",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": []
+}
